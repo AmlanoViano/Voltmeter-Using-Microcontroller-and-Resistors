@@ -1,7 +1,6 @@
 # Voltmeter-Using-Microcontroller-and-Resistors
 
-A universal DC voltmeter sketch for any Arduino-compatible board, using an external resistor voltage divider and the onboard ADC. Configure the constants at the top of the sketch for your board and resistors.
-
+A universal DC voltmeter sketch for any Arduino-compatible board, using an external resistor voltage divider and the onboard ADC. Configure the constants at the top of the sketch for your board and resistors. Just upload the `voltmeter.ino` to your microcontroller using Arduino IDE.
 ---
 
 ## How it works
