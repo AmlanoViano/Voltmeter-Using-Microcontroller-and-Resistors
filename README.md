@@ -86,8 +86,6 @@ Edit only the constants at the top of the sketch:
 | Arduino Due | `A0` | `3.3` | `4095` |
 | STM32 (default) | `A0` | `3.3` | `4095` |
 
-> **ESP32 note:** The ESP32 ADC is non-linear above ~3.0 V. For accurate readings, use `esp_adc_cal` correction or restrict your divider ratio so the ADC pin stays below 3.0 V.
-
 ### Common divider configurations
 
 | Input range | $R_{TOP}$ | $R_{BOTTOM}$ | Ratio |
