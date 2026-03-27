@@ -6,7 +6,7 @@ A universal DC voltmeter sketch for any Arduino-compatible board, using an exter
 
 ## How it works
 
-The circuit uses a **voltage divider** to scale down the input voltage to a level safe for the ADC pin. The microcontroller reads the scaled voltage and reconstructs the original input voltage using the known resistor ratio.
+The circuit uses a **potential divider** to scale down the input voltage to a level safe for the ADC pin. The microcontroller reads the scaled voltage and reconstructs the original input voltage using the known resistor ratio.
 
 ### Voltage divider
 
